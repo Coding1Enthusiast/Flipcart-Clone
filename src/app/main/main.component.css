@@ -1,0 +1,12 @@
+.mobile-section{
+    background-color: #ffffff;
+    overflow-x: auto;
+    /* height: 20rem; */
+    width: 100vw;
+}
+
+
+  .container{
+    margin-top: 1rem;
+    overflow-x: auto;
+  }

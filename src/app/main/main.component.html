@@ -1,0 +1,15 @@
+<div class="border container w-100" style="height: 350px; background-color: #ffffff">
+    <h3 class="px-2 pt-2">{{contentList[0].heading}}</h3>
+    <div  style="display: flex;background-color: #ffffff; flex-grow:1;height: 260px">
+    <div class="border p-4 pb-2 w-100 h-90" *ngFor="let d of contentList[0].models" style=" margin-left: 0.8rem ; margin-right: 0.8rem; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <div class="" style="display: inline-block; width: 150px; max-height: 200px;" >
+          <img class="img-fluid" src={{d.imgUrl}} alt=""  style="max-width: 100%; max-height: 100%;" >
+        </div>
+        <div class="p-2">
+            <div>{{d.name}}</div>
+            <div>{{d.name}}</div>
+
+        </div>
+      </div>
+  </div>
+</div>
